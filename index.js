@@ -32,7 +32,7 @@ export default class Drawer extends Component {
   };
 
   state = {
-    viewport: deviceScreen
+    viewport: this.props.viewport || deviceScreen
   };
 
   static propTypes = {
